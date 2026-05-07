@@ -26,7 +26,7 @@ Summary:	Open-source implementation of the Java Platform, Standard Edition
 Summary(pl.UTF-8):	Wolnoźródłowa implementacja Java 19 SE
 Name:		openjdk19
 Version:	19.0.2
-Release:	2
+Release:	3
 License:	GPL v2
 Group:		Development/Languages/Java
 Source0:	https://github.com/openjdk/jdk19u/archive/jdk-%{version}-ga/%{name}-%{version}.tar.gz
@@ -288,7 +288,7 @@ użyciu wolnego oprogramowania.
 Summary:	OpenJDK - JMods
 Summary(pl.UTF-8):	OpenJDK - JMods
 Group:		Development/Languages/Java
-Requires:	%{name}-jdk-base = %{version}-%{release}
+Requires:	%{name}-jdk = %{version}-%{release}
 
 %description jmods
 JMods for OpenJDK.
